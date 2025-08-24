@@ -17,9 +17,10 @@ This project is a **simple web-based app** that lets you add tasks into their qu
 - ➕ Add tasks with urgency and importance selection.  
 - 📑 Tasks are automatically placed into the correct quadrant.  
 - 💾 Export options:
-- Save the entire matrix as an **image (PNG)**.  
+  - Save the entire matrix as an **image (PNG)**.  
 - 🎨 Modern gradient UI with quadrant-specific themes.  
-- 📱 Responsive design (works on desktop and mobile).  
+- 📱 Responsive design (works on desktop and mobile).
+- Robust Logic for task addition features
 
 ---
 
