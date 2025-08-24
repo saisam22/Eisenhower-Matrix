@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eisenhower Matrix</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Eisenhower <span id="matt">Matrix</span></h1>
+    <h3>Prioritize Your Tasks Effectively</h3>
+
+    <form id="form1">
+        <label for="taskip">Enter a Task:   </label>
+        <input type="text" id="taskip" placeholder="Type Task Here">
+        <br>
+
+        <select name="urgency" id="urg" placeholder="Select Urgency">
+            <option value="" selected disabled hidden>Please select Urgency</option>
+            <option value="Urgent">Urgent</option>
+            <option value="Not Urgent">Not Urgent</option>
+        </select>
+
+      
+
+        <select name="importance" id="imp" placeholder="Select Importance">
+            <option value="" selected disabled hidden>Please select Importance</option>
+            <option value="Important">Important</option>
+            <option value="Not Important">Not Important</option>
+        </select>
+        <button type="submit">Add Task</button>
+        
+    </form>
+    <br>
+    <button onclick="saveAsImage()" id="save-img">Save as img</button>
+    
+    
+
+    <div class="matrix" id="matrix">
+        <div class="quadrant" id="q1">
+            <h2>Urgent and Important</h2>
+            <ul></ul>
+        </div>
+        <div class="quadrant" id="q2">
+            <h2>Not Urgent but Important </h2>
+            <ul></ul>
+        </div>
+        <div class="quadrant" id="q3">
+            <h2>Urgent and Not Important</h2>
+            <ul></ul>
+        </div>
+        <div class="quadrant" id="q4">
+            <h2>Not Urgent Not Important</h2>
+            <ul></ul>
+        </div>
+    </div>
+
+
+    
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+</body>
+</html>
